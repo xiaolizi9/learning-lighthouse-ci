@@ -9,5 +9,6 @@ before_install:
 script:
   - npm run build
   - lhci autorun
+  
 addons:
   chrome: stable
